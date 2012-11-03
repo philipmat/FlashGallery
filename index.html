@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Simple.photo.Viewer</title>
+<!-- Download SimpleViewer at www.airtightinteractive.com/simpleviewer -->
+
+<link rel="stylesheet" type="text/css" href="gallerystyle.css" />
+<link rel="stylesheet" type="text/css" href="ifire.css" />
+<!-- Do not edit IE conditional style below -->
+<!--[if gte IE 5.5]>
+<style type="text/css">
+#motioncontainer {
+width:expression(Math.min(this.offsetWidth, maxwidth)+'px');
+}
+</style>
+<![endif]-->
+<!-- End Conditional Style -->
+
+<script type="text/javascript" src="motiongallery.js">
+
+/***********************************************
+* CMotion Image Gallery- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+* Modified by Jscheuer1 for autowidth and optional starting positions
+***********************************************/
+
+</script>
+<script type="text/javascript" src="swfobject-indent.js"></script>
+<script type="text/javascript" language="javascript" src="simplephoto_v1.js"></script>
+
+
+<!-- configuration section for CSS and JavaScript -->
+<style type="text/css">	
+#selector IMG {
+	height: 100px !important;
+	width: 100px !important;
+}
+</style>
+
+<script type="text/javascript">
+SimplePhoto.albumDataFileName = 'gallery.xml.php';
+SimplePhoto.galleryBaseLocation = 'http://www.poi1.com/photos/';
+</script>
+
+
+</head>
+<body>
+<div id="header">
+
+	<!-- 
+		for gallery images:
+		http://www.dynamicdrive.com/dynamicindex4/cmotiongallery.htm
+	-->
+	<div id='title' class="title">
+		simple.PHOTO.albums
+	</div>
+	<div id="selector">
+
+		<center>
+		<div id="motioncontainer" style="position:relative;overflow:hidden;margin-left:auto;margin-right:auto;">
+			<div id="motiongallery" style="position:absolute;left:0;top:0;white-space: nowrap;" >
+			
+			<div id="trueContainer">
+				<a href="javascript:void(0)" title="Right to left - From newest to oldest"><img src="images/arrow1_right.png" /></a> 
+				<a href="#/HillCountryRide" onclick="javascript:selectAlbum('HillCountryRide');" title="Riding Texas - Hill Country (June 2007)"><img src="http://www.poi1.com/photos/HillCountryRide/album.jpg" /></a> 
+				<a href="#/Dog" onclick="javascript:selectAlbum('Dog');" title="New addition to the family (May 2007)"><img src="http://www.poi1.com/photos/Dog/album.jpg" /></a> 
+				<a href="#/Maui" onclick="javascript:selectAlbum('Maui');" title="Wedding anniversary in Maui (November 2006)"><img src="http://www.poi1.com/photos/Maui/album.jpg" /></a> 
+				<a href="#/Alaska" onclick="javascript:selectAlbum('Alaska');" title="On Business in Alaska (July 2006)"><img src="http://www.poi1.com/photos/Alaska/album.jpg" /></a> 
+				<a href="#/SouthPadreIsland" onclick="javascript:selectAlbum('SouthPadreIsland');" title="Birthday in South Padre Island (December 2005)"><img src="http://www.poi1.com/photos/SouthPadreIsland/album.jpg" /></a> 
+				<a href="#/Dallas" onclick="javascript:selectAlbum('Dallas');" title="A short stop in Dallas (May 2005)"><img src="http://www.poi1.com/photos/Dallas/album.jpg" /></a> 
+				<a href="#/SanAntonio" onclick="javascript:selectAlbum('SanAntonio');" title="New Year's Even in San Antonio (2003, 2004)"><img src="http://www.poi1.com/photos/SanAntonio/album.jpg" /></a> 
+				<a href="#/Romania2004" onclick="javascript:selectAlbum('Romania2004');" title="Last visit to Romania (December 2004)"><img src="http://www.poi1.com/photos/Romania2004/album.jpg" /></a> 
+				<a href="#/CruiseToCozumel" onclick="javascript:selectAlbum('CruiseToCozumel');" title="On a Carnival ship cruising to Cozumel (October 2004)"><img src="http://www.poi1.com/photos/CruiseToCozumel/album.jpg" /></a> 
+				<a href="#/Austin" onclick="javascript:selectAlbum('Austin');" title="4th of July in Austin (July 2003)"><img src="http://www.poi1.com/photos/Austin/album.jpg" /></a> 
+				<a href="#/LasVegas" onclick="javascript:selectAlbum('LasVegas');" title="Wedding anniversary in Vegas (November 2003)"><img src="http://www.poi1.com/photos/LasVegas/album.jpg" /></a> 
+				<a href="#/CorpusChristi" onclick="javascript:selectAlbum('CorpusChristi');" title="A quick visit to Corpus Christi (May 2003)"><img src="http://www.poi1.com/photos/CorpusChristi/album.jpg" /></a> 
+				<a href="#/NewOrleans" onclick="javascript:selectAlbum('NewOrleans');" title="Wedding anniversary in New Orleans (November 2002)"><img src="http://www.poi1.com/photos/NewOrleans/album.jpg" /></a> 
+				<a href="#/Motorcycling" onclick="javascript:selectAlbum('Motorcycling');" title="Searching for Zen"><img src="http://www.poi1.com/photos/Motorcycling/album.jpg" /></a> 
+				<a href="#/Sunsets" onclick="javascript:selectAlbum('Sunsets');" title="Collection of dark colors"><img src="http://www.poi1.com/photos/Sunsets/album.jpg" /></a> 
+				<a href="javascript:void(0)" title="Left to right - From oldest to newest"><img src="images/arrow1_left.png" /></a> 
+			</div>
+			
+			</div>
+		</div>
+		</center>
+	</div>
+	
+</div>
+
+	<div id="flashcontent"></div>	
+	
+</body>
+</html>

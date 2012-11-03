@@ -1,0 +1,4 @@
+<image>
+	<filename><%itemName%></filename>
+	<caption><%itemCaption%></caption>
+</image>

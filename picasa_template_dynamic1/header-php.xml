@@ -1,0 +1,18 @@
+<?php echo '<?xml version="1.0" encoding="UTF-8"?>' ?>
+
+<simpleviewerGallery 
+	maxImageHeight="1024" 
+	maxImageWidth="1024" 
+	textColor="0xFFFFFF" 
+	frameColor="0xffffff" 
+	frameWidth="20" 
+	stagePadding="40" 
+	thumbnailColumns="3" 
+	thumbnailRows="3" 
+	navPosition="left" 
+	title="<%exportDescription%>" 
+	enableRightClickOpen="true" 
+	backgroundImagePath="" 
+	thumbPath="<?= 'http://' . $_SERVER['HTTP_HOST'].'/'. dirname($_SERVER['REQUEST_URI'])?>/thumbnails/" 
+	imagePath="<?= 'http://' . $_SERVER['HTTP_HOST'].'/'. dirname($_SERVER['REQUEST_URI'])?>/images/" >
+	

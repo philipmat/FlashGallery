@@ -1,0 +1,67 @@
+/* hide from ie on mac \*/
+html {
+	height: 100%;
+	/* overflow: hidden; */
+}
+
+/* end hide */
+
+body {
+	/* height: 100%; */
+	margin: 0;
+	padding: 5px;
+	background-color: gainsboro;
+	color:#ffffff;
+	font-family: Arial;
+}
+
+#flashcontent {
+	width: 100%;
+	height: 600px;
+	background-color: black;
+	margin-top: 5px;
+}
+		
+
+#selector {
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+#selector, 
+#topmenu .title {
+}
+#selector A {
+	text-align: center;
+	margin: 5px;
+}
+#selector A:visited
+{
+	/* border-bottom: 5px solid blue; */
+}
+#selector A:focus,
+#selector A:hover,
+#selector A:active
+{
+	/* border-bottom: 5px solid orange; */
+}
+
+IMG {
+	border: 0px;
+}
+
+
+.title {
+	text-align: center;
+}
+
+#header .title {
+	background-color: firebrick;
+	font-weight: bold;
+}
+
+
+#header {
+	border: 2px solid darkorange;
+}
+
